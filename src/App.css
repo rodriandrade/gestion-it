@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f0f0f;
+  height:100vh;
+  width:100%;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -35,4 +42,45 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+button{
+  padding:10px;
+  border-radius:2px;
+  border:none;
+  background-color:#651983;
+  color:#fff;
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+  margin:10px;
+  text-transform: uppercase;
+  width: 300px;
+  font-size:24px;
+}
+
+button:hover{
+  opacity:0.9;
+}
+
+input{
+  font-family: 'Inter', sans-serif;
+  width:300px;
+  padding:10px 0;
+  background-color: transparent;
+  border:none;
+  border-bottom:1px solid coral;
+  color:#fff;
+  margin:10px 0;
+  font-size:18px;
+}
+
+input[type=submit]{
+  background-color:coral;
+  border:none;
+  text-transform: uppercase;
+  cursor:pointer;
+}
+
+input[type=submit]:hover{
+  opacity:0.9;
 }
